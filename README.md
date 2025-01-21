@@ -5,7 +5,7 @@ This is a a web application designed to make organizing and joining events easy.
 # 💡 Made By
 - Ailioaei Sorina-Elena
 - Apetroaei Emanuela-Catalina
-- Ducu Daria
+- Ducu Daria Mihaela
 
 # 🛠 Getting Started
 - Open a new terminal and navigate to the backend and use  
