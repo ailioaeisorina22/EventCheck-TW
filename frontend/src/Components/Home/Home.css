@@ -1,0 +1,189 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,600&display=swap');
+
+  @import url('https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong');
+
+  body {
+	font-family: Trirong;
+  	background-color:rgb(144, 139, 130);
+  	background-size: 400% 400%;
+  	height: 100vh;
+  }
+
+  .pricipal-container {
+  	display: flex;
+  	justify-content: space-between;
+  	flex-direction: row;
+  	align-items: baseline;
+  }
+
+  .add-event-container {
+  	position: absolute;
+  	bottom: 20px;
+  	left: 20px;
+  	z-index: 999;
+  }
+
+
+  .title-eventcheck {
+  	font-family: 'Audiowide';
+  	font-size: 80px;
+  	padding-top: 10px;
+  	color: #25252500;
+	display: flex;
+	justify-content: center;
+  	-webkit-text-stroke-width: 3px;
+  	-webkit-text-stroke-color:#d75307;
+  }
+
+  .logo {
+  	padding-top: 10px;
+  	width: 150px;
+  	border-radius: 0px;
+  	margin-left: 35%;
+  	margin-right: 35%;
+  	margin-top: 10px;
+  }
+
+  .username-1 {
+	font-size: 30px;
+	font-family: 'Comic Sans MS';
+  	display: flex;
+  	justify-content: center;
+  	color: rgb(215, 83, 7);
+  }
+
+  .btn-aboutus {
+  	border-radius: 20px;
+  	padding: 10px 20px;
+  	border: 2px solid #000;
+  	background-color: #fff;
+  	font-size: 16px;
+  	text-align: center;
+  	display: inline-block;
+  	font-family: 'Poppins';
+  	-webkit-box-shadow: 0px 0px 274px 73px  rgb(225, 143, 21);
+  	-moz-box-shadow: 0px 0px 274px 73px  rgb(225, 143, 21);
+  	box-shadow: 0px 0px 274px 73px  rgb(225, 143, 21);
+  }
+
+  .btn-signout {
+  	border-radius: 20px;
+  	padding: 10px 20px;
+  	border: 2px solid #000;
+  	background-color: #fff;
+  	font-size: 16px;
+  	text-align: center;
+  	display: inline-block;
+  	font-family: 'Poppins';
+  	-webkit-box-shadow: 0px 0px 274px 73px #e18f15;;
+  	-moz-box-shadow: 0px 0px 274px 73px  rgb(225, 143, 21);;
+  	box-shadow: 0px 0px 274px 73px  rgb(225, 143, 21);;
+  }
+
+  
+  .linie {
+  	color: white;
+  	border: 2px solid white;
+  	margin-right: 400px;
+  }
+
+  .loggin-as {
+  	font-family: 'Poppins';
+  	margin-top: -150px;
+  	font-size: 16px;
+  	color: white;
+  	margin-left: 250px;
+  }
+
+  .container-evenimente {
+  	display: flex;
+  	justify-content: center;
+  	margin-top: 170px;
+  	margin-top: 170px;
+  }
+
+
+  .orange-button {
+  	background-color: #eeecdb;
+  	color: rgb(225, 143, 21);
+  	border: none;
+  	cursor: pointer;
+  	font-size: 50px;
+  	padding: 15px 30px;
+  	border-radius: 100px;
+  	transition: background-color 0.3s;
+  	outline: none;
+  	position: relative;
+  	overflow: hidden;
+  }
+
+  .plus-icon {
+  	color: white;
+  	font-size: 24px;
+  }
+
+
+  .popup {
+  	display: none;
+  	position: absolute;
+  	left: 50%;
+  	top: 50%;
+  	transform: translate(-50%, -50%);
+  	width: 100%;
+  	max-width: 500px;
+  	padding: 20px;
+  	background: #fff;
+  	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  	z-index: 1000;
+  	border-radius: 30px;
+  }
+
+
+  .popup-visible {
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	top: 50%;
+  	left: 50%;
+  }
+
+  .event-data {
+  	color: white;
+  }
+
+
+
+  /* Ajustează dimensiunea generală a cardului și a elementelor din interior */
+  .event-card {
+  	margin-bottom: 0.5rem;
+  	/* Reducem spațiul dintre carduri */
+  }
+
+  .event-card .card-body {
+  	padding: 0.5rem;
+  	/* Reducem padding-ul din interiorul cardului */
+  }
+
+  .event-card .row {
+  	margin-right: -0.5rem;
+  	margin-left: -0.5rem;
+  }
+
+  .event-card .col-auto {
+  	padding-right: 0.5rem;
+  	padding-left: 0.5rem;
+  	flex-grow: 0;
+  	max-width: none;
+  }
+
+  /* Specific pentru starea evenimentului */
+  .status {
+  	font-weight: bold;
+  }
+
+  /* Dacă vrei să reduci și mai mult spațiul dintre elemente */
+  .event-card .col-auto:not(:last-child) {
+  	padding-right: 0.25rem;
+  	padding-left: 0.25rem;
+  }

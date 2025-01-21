@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "express": "^4.21.2",
+    "firebase": "^11.1.0",
+    "react-bootstrap": "^2.10.7",
+    "react-csv": "^2.2.2",
+    "react-datepicker": "^7.6.0",
+    "react-router-dom": "^7.1.1"
+  }
+}

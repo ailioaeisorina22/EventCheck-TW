@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong');
+
+.custom-font {
+  font-family: 'Trirong', sans-serif;
+}
+
+.custom-card1 {
+    background-color: #80e8a1cf !important;  /* Adjust transparency as needed */
+    border-radius: 15px; /* Rounded corners for the card */
+    padding: 20px;
+    width: 1000px;
+    margin-top: 150px;
+  }
+  
+  .custom-input {
+    background-color: rgba(255, 251, 254, 0.522); /* Adjust transparency as needed */
+    border: 1px solid #c92323; /* Bootstrap's default border color */
+    border-radius: 0.25rem; /* Rounded corners for input fields */
+  }
+  
+  .custom-button {
+    background-color: #000000; /* Bootstrap primary color */
+    color: white; /* Text color */
+    border-radius: 0.25rem; /* Rounded corners for the button */
+  }
+  
+  .custom-heading {
+    font-family: Trirong;
+    font-size: 1.5rem; /* Larger text */
+    font-weight: bold; /* Bold text */
+    color: #9b1414; /* Same blue as the button */
+    margin-bottom: 1rem; /* Space below the heading */
+  }
+  .custom-label{
+    font-family: Trirong;
+    color: #9b1414;
+  }

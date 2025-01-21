@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong');
+
+.custom-font {
+  font-family: 'Trirong', sans-serif;
+}
+/* SignUp.css */
+/* SignUp.css */
+.custom-label-size {
+    font-weight: bold; /* Bold text */
+    color: #a91f1f; /* Bootstrap 'text-primary' color */
+    font-size: 1.25rem; /* Setează dimensiunea fontului mai mare */
+  }
+  
+
+  .custom-card {
+    background-color: rgba(201, 213, 207, 0.737); /* sau orice altă valoare de opacitate între 0 și 1 */
+  }
+  
+  .custom-input {
+    background-color: rgba(255, 255, 255, 0.5); /* Ajustează transparența după preferințe */
+  }
+  
+  .custom-button {
+    background-color: rgba(114, 190, 91, 0.5); /* Presupunând că butonul este albastru bootstrap */
+  }
